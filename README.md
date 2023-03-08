@@ -1,10 +1,20 @@
-# c6WNVwC7
+# Movie Search App
 
-Quick start:
+A tool for searching movies information from the Movie Database.
+
+## Getting Started
+
+To use the Movie Search App, simply enter the username in the search input field and submite the form to get the desired results.
+
+## Installation
+
+To install the Movie Search App, you can clone this repository or download the source code. You will need to have Node.js and npm (or yarn) installed on your machine. 
+
+After downloading the source code, run the following command to install the necessary dependencies:
 
 ```
-$ yarn # npm install
-$ yarn build # npm run build
+$ yarn 
+# npm install
 ````
 
 ## Development
@@ -12,17 +22,31 @@ $ yarn build # npm run build
 Run Webpack in watch-mode to continually compile the JavaScript as you work:
 
 ```
-$ yarn watch # npm run watch
+$ yarn watch 
+# npm run watch
 ```
 
-## About Scrimba
+## Production
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+Run Webpack for production of your project:
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+```
+$ yarn build 
+# npm run build
+````
 
-Happy Coding!
+## Screenshot
+![Screenshot](/images/screenshot.png)
+
+## Built With
+
+- JavaScript
+- HTML
+- CSS
+- Webpack
+- Babel
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+

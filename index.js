@@ -1,16 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import SearchMovies from "./searchMovies";
 
-class Main extends React.Component {
-  render() {
+function Main(){
     return (
       <div className="container">
         <h1 className="title">React Movie Search</h1>
         <SearchMovies/>
       </div>
     );
-  }
 }
 
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.createRoot(document.getElementById('root')).render(<Main/>);
